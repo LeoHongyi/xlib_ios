@@ -86,6 +86,8 @@
 		04876CA41809B2A1004DD195 /* npk.c in Sources */ = {isa = PBXBuildFile; fileRef = 04876C941809B2A1004DD195 /* npk.c */; };
 		04876CA51809B2A1004DD195 /* npk_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 04876C951809B2A1004DD195 /* npk_common.c */; };
 		04876CA61809B2A1004DD195 /* npk_dev.c in Sources */ = {isa = PBXBuildFile; fileRef = 04876C961809B2A1004DD195 /* npk_dev.c */; };
+		04876CB01809B6DB004DD195 /* R.m in Sources */ = {isa = PBXBuildFile; fileRef = 04876CAF1809B6DB004DD195 /* R.m */; };
+		04876CB11809B6E5004DD195 /* R.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 04876CAE1809B6DB004DD195 /* R.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				04876CB11809B6E5004DD195 /* R.h in CopyFiles */,
 				04876C6D1809AEB8004DD195 /* xauth.h in CopyFiles */,
 				04876C6C1809AEAA004DD195 /* CDOpenALSupport.h in CopyFiles */,
 				04876C6B1809AEA1004DD195 /* CDConfig.h in CopyFiles */,
@@ -258,6 +261,8 @@
 		04876C941809B2A1004DD195 /* npk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = npk.c; sourceTree = "<group>"; };
 		04876C951809B2A1004DD195 /* npk_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = npk_common.c; sourceTree = "<group>"; };
 		04876C961809B2A1004DD195 /* npk_dev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = npk_dev.c; sourceTree = "<group>"; };
+		04876CAE1809B6DB004DD195 /* R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R.h; sourceTree = "<group>"; };
+		04876CAF1809B6DB004DD195 /* R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -315,6 +320,7 @@
 		04876B931809AAE3004DD195 /* xlib_ios */ = {
 			isa = PBXGroup;
 			children = (
+				04876CAD1809B6DB004DD195 /* R */,
 				04876C6E1809B2A1004DD195 /* libnpk */,
 				04876C3D1809AC21004DD195 /* ISSequence */,
 				04876C2F1809ABF3004DD195 /* CocosDenshion */,
@@ -581,6 +587,15 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		04876CAD1809B6DB004DD195 /* R */ = {
+			isa = PBXGroup;
+			children = (
+				04876CAE1809B6DB004DD195 /* R.h */,
+				04876CAF1809B6DB004DD195 /* R.m */,
+			);
+			path = R;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -700,6 +715,7 @@
 				04876C0D1809AAFD004DD195 /* JSONKit.m in Sources */,
 				04876B991809AAE3004DD195 /* xlib_ios.m in Sources */,
 				04876C2A1809AAFD004DD195 /* xauth.m in Sources */,
+				04876CB01809B6DB004DD195 /* R.m in Sources */,
 				04876C3A1809ABF3004DD195 /* CDOpenALSupport.m in Sources */,
 				04876CA51809B2A1004DD195 /* npk_common.c in Sources */,
 				04876C221809AAFD004DD195 /* AEExpanderFilter.m in Sources */,
